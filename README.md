@@ -142,8 +142,8 @@ Nexuscompendium/
 ### Instalación
 ```bash
 # Clonar el repositorio
-git clone <repository-url>
-cd Nexuscompendium
+git clone https://github.com/CesarRubilar0/NexusCompendium.git
+cd NexusCompendium
 
 # Instalar dependencias
 composer install
@@ -205,11 +205,11 @@ Este proyecto fue desarrollado como parte de la asignatura **Aplicaciones Web en
 
 ## 👥 Autor
 
-- **Desarrollador**: César
+- **Desarrollador**: César Rubilar
 - **Proyecto**: Nexuscompendium
 - **Asignatura**: Desarrollo de Software - Laravel
 - **Fecha**: Julio 2025
-- **GitHub**: [Tu perfil de GitHub]
+- **GitHub**: [CesarRubilar0](https://github.com/CesarRubilar0)
 
 ## 🤝 Contribuciones
 
@@ -224,8 +224,8 @@ Este es un proyecto académico, pero las sugerencias y mejoras son bienvenidas:
 ## 📞 Contacto
 
 Si tienes preguntas sobre este proyecto académico, puedes contactarme a través de:
-- GitHub: [Tu usuario de GitHub]
-- Email: [Tu email académico]
+- GitHub: [@CesarRubilar0](https://github.com/CesarRubilar0)
+- Repositorio: [NexusCompendium](https://github.com/CesarRubilar0/NexusCompendium)
 
 ## 🙏 Agradecimientos
 
