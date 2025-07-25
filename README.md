@@ -1,12 +1,15 @@
 # Nexuscompendium - Plataforma de Gestión de Proyectos de Vinculación con el Medio
 
 ![Nexuscompendium Logo](https://img.shields.io/badge/Nexuscompendium-Nexus%20de%20Conocimiento-6290C3?style=for-the-badge)
+[![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com)
+[![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4?style=flat&logo=php&logoColor=white)](https://php.net)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## 📋 Descripción del Proyecto
 
 Nexuscompendium es una plataforma web desarrollada en Laravel que facilita la gestión y coordinación de proyectos de vinculación con el medio. Su objetivo principal es servir como un punto central donde se concentra y organiza toda la información, conectando instituciones educativas con las necesidades reales de la comunidad y promoviendo el aprendizaje experiencial y el impacto social positivo.
 
-## 🎯 Objetivo
+## 🎯 Objetivo Académico
 
 Establecer la identidad visual y la estructura de vistas de un nuevo proyecto en Laravel, demostrando la capacidad para crear una marca coherente y construir vistas web utilizando rutas y el motor de plantillas Blade.
 
@@ -18,11 +21,25 @@ Establecer la identidad visual y la estructura de vistas de un nuevo proyecto en
 - **Navegación Intuitiva**: Interfaz amigable y responsive
 - **Diseño Profesional**: Utilizando principios modernos de UX/UI
 
-### Funcionalidades Implementadas
-- 🏠 **Página de Bienvenida**: Presentación atractiva de la plataforma
-- 📋 **Gestión de Proyectos**: Visualización, creación y detalles de proyectos
-- 🔐 **Sistema de Autenticación**: Páginas de login diseñadas
-- 📊 **Dashboard**: Panel de control (placeholder para futuras funcionalidades)
+## 🚀 Demo y Capturas
+
+### Vista Principal
+![Vista Principal](public/images/logo.png)
+
+### Características Implementadas
+- 🏠 **Página de Bienvenida**: Hero section con identidad visual completa
+- 📋 **Gestión de Proyectos**: CRUD de proyectos con filtros y búsqueda
+- 🔐 **Sistema de Autenticación**: Páginas de login con diseño profesional
+- 📊 **Dashboard**: Panel de control preparado para futuras funcionalidades
+- 🎨 **Diseño Responsivo**: Optimizado para móviles y escritorio
+
+### URLs Disponibles
+- **Inicio**: `/`
+- **Proyectos**: `/proyectos`
+- **Crear Proyecto**: `/proyectos/crear`
+- **Ver Proyecto**: `/proyectos/{id}`
+- **Login**: `/login`
+- **Dashboard**: `/dashboard`
 
 ## 🎨 Identidad Visual
 
@@ -186,12 +203,35 @@ Este proyecto fue desarrollado como parte de la asignatura **Aplicaciones Web en
 - Gestión de usuarios y roles
 - Reportes y analytics
 
-## 👥 Equipo de Desarrollo
+## 👥 Autor
 
-- **Desarrollador**: [Tu Nombre]
-- **Institución**: [Nombre del Instituto]
-- **Asignatura**: Aplicaciones Web en Laravel
+- **Desarrollador**: César
+- **Proyecto**: Nexuscompendium
+- **Asignatura**: Desarrollo de Software - Laravel
 - **Fecha**: Julio 2025
+- **GitHub**: [Tu perfil de GitHub]
+
+## 🤝 Contribuciones
+
+Este es un proyecto académico, pero las sugerencias y mejoras son bienvenidas:
+
+1. Fork el proyecto
+2. Crea tu Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la Branch (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📞 Contacto
+
+Si tienes preguntas sobre este proyecto académico, puedes contactarme a través de:
+- GitHub: [Tu usuario de GitHub]
+- Email: [Tu email académico]
+
+## 🙏 Agradecimientos
+
+- A los profesores de la asignatura por la guía y orientación
+- A la comunidad de Laravel por la excelente documentación
+- A todos los que contribuyen al ecosistema open source
 
 ## 📄 Licencia
 
