@@ -3,6 +3,7 @@
 @section('title', 'Crear Usuario - Nexus Compendium')
 
 @section('content')
+ 
 <div class="container">
     <div class="page-header">
         <div class="header-content">
@@ -13,6 +14,8 @@
             <span>←</span> Volver a Usuarios
         </a>
     </div>
+       <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <div class="form-container">
         <form class="user-form" action="/usuarios" method="POST">
@@ -174,212 +177,7 @@
     </div>
 </div>
 
-<style>
-    .page-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 2rem;
-        padding-bottom: 1rem;
-        border-bottom: 2px solid var(--gray-light);
-    }
 
-    .header-content h1 {
-        color: var(--dark-blue);
-        margin-bottom: 0.5rem;
-        font-size: 2.2rem;
-    }
-
-    .subtitle {
-        color: var(--gray-dark);
-        font-size: 1.1rem;
-    }
-
-    .form-container {
-        background: var(--white);
-        border-radius: 12px;
-        padding: 2rem;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        border-left: 4px solid var(--primary-blue);
-    }
-
-    .form-sections {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .form-section {
-        background: var(--gray-light);
-        border-radius: 8px;
-        padding: 1.5rem;
-    }
-
-    .form-section h3 {
-        color: var(--dark-blue);
-        margin-bottom: 1.5rem;
-        font-size: 1.3rem;
-        border-bottom: 2px solid var(--primary-blue);
-        padding-bottom: 0.5rem;
-    }
-
-    .form-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1.5rem;
-    }
-
-    .form-group {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .form-group.full-width {
-        grid-column: 1 / -1;
-    }
-
-    .form-group label {
-        font-weight: 600;
-        color: var(--dark-blue);
-        margin-bottom: 0.5rem;
-    }
-
-    .form-group input,
-    .form-group select,
-    .form-group textarea {
-        padding: 0.75rem;
-        border: 2px solid var(--gray-light);
-        border-radius: 6px;
-        font-size: 1rem;
-        transition: border-color 0.3s ease;
-        background: var(--white);
-    }
-
-    .form-group input:focus,
-    .form-group select:focus,
-    .form-group textarea:focus {
-        outline: none;
-        border-color: var(--primary-blue);
-        box-shadow: 0 0 0 3px rgba(52, 144, 220, 0.1);
-    }
-
-    .form-group small {
-        color: var(--gray-dark);
-        font-size: 0.85rem;
-        margin-top: 0.25rem;
-    }
-
-    .checkbox-group {
-        flex-direction: row;
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-    .checkbox-label {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        cursor: pointer;
-        font-weight: 500 !important;
-        margin-bottom: 0 !important;
-    }
-
-    .checkbox-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 1rem;
-        margin-top: 0.5rem;
-    }
-
-    .checkbox-label input[type="checkbox"] {
-        width: 18px;
-        height: 18px;
-        margin: 0;
-    }
-
-    .checkmark {
-        font-weight: 500;
-    }
-
-    .form-actions {
-        display: flex;
-        gap: 1rem;
-        justify-content: flex-end;
-        margin-top: 2rem;
-        padding-top: 2rem;
-        border-top: 2px solid var(--gray-light);
-    }
-
-    .btn-primary,
-    .btn-secondary {
-        padding: 0.75rem 2rem;
-        border-radius: 6px;
-        font-weight: 600;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        cursor: pointer;
-        border: none;
-        font-size: 1rem;
-        transition: all 0.3s ease;
-    }
-
-    .btn-primary {
-        background: var(--primary-blue);
-        color: var(--white);
-    }
-
-    .btn-primary:hover {
-        background: var(--dark-blue);
-        transform: translateY(-2px);
-    }
-
-    .btn-secondary {
-        background: var(--gray-light);
-        color: var(--dark-blue);
-        border: 2px solid var(--gray-dark);
-    }
-
-    .btn-secondary:hover {
-        background: var(--gray-dark);
-        color: var(--white);
-    }
-
-    @media (max-width: 768px) {
-        .page-header {
-            flex-direction: column;
-            gap: 1rem;
-            align-items: flex-start;
-        }
-
-        .form-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .form-actions {
-            flex-direction: column;
-        }
-
-        .checkbox-grid {
-            grid-template-columns: 1fr;
-        }
-    }
-
-    /* Mejorar la apariencia de los checkboxes */
-    input[type="checkbox"] {
-        accent-color: var(--primary-blue);
-    }
-
-    /* Animaciones suaves */
-    .form-section {
-        transition: transform 0.3s ease;
-    }
-
-    .form-section:hover {
-        transform: translateY(-2px);
-    }
-</style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
